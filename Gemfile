@@ -7,7 +7,7 @@ gem 'rails', '3.2.0'
 
 gem 'sqlite3'
 gem 'gravatar_image_tag', '0.1.0'
-
+gem 'will_paginate', '3.0.pre4'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -27,6 +27,7 @@ group :development do
 	# gem 'rspec-rails', '2.0.1'
 	# gem 'annotate-models', '1.0.4'
 	gem "annotate"
+	gem 'faker', '0.3.1'
 
 end
 
